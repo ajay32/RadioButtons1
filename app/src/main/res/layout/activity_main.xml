@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RadioGroup
+        android:id="@+id/rg_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <!--to make it bydefault checked add this property   android:checked="true"
+        you can only check one of them at any instance..-->
+        <RadioButton
+            android:id="@+id/rb_mango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mango"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/rb_apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+           />
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/rb_girl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Girl" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See Selected" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/rb_girl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="girl"
+          />
+
+        <RadioButton
+            android:id="@+id/br_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="boy"
+           />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
